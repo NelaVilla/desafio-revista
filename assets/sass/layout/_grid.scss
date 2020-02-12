@@ -1,20 +1,4 @@
-.container__menu{
- display:grid;
-  text-align: center;
-}
-.menu--items{
+.row {
   display: grid;
-}
-.menu--logo{
-  grid-column-start: 1;
-  grid-column-end: 2;
-}
-.menu--lista{
-  grid-column-start:2;
-  grid-column-end: 3;
-
-}
-.container__news{
-grid-row: 1;
-
+  grid-template-columns: repeat(12, 1fr);
 }
