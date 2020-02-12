@@ -1,0 +1,36 @@
+.menu__lista {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    padding: 10px;
+    border-bottom:1px solid $gray;
+    text-align:center;
+    &
+  }
+
+.logo__titulo {
+    font-size: $medium;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    padding-top: 3%;
+}
+
+.nav__lista {
+    display: inline-block;
+    width: 840px;
+    text-align: right;
+}
+
+.nav__lista ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+li{
+  display: inline-block;
+
+}
+.input-menu {
+    border-radius: 30px;
+}
