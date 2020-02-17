@@ -38,6 +38,32 @@
 /*noticias*/
 
 
+@media  screen and (max-width: 600px) {
+  .noticias__contenido{
+    grid-template-columns: 100%;
+    margin-left: 70px;
+    text-align: center;
+    img{
+      margin-left: 40px;
+    }
+  }
+  .barra-nav__lista{
+    display: none;
+  }
+}
+@media  screen and (max-width: 320px) {
+  .noticias__contenido{
+margin-left: 40px;
+text-align: center;
+img{
+  margin-left: 30px;
+}
+ }
+  .barra-nav__lista{
+    display: none;
+  }
+}
+
 
 /*newlettter*/
 .news__contenido {
